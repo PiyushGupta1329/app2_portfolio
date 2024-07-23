@@ -12,4 +12,10 @@ with col2:
             Hi, I am Piyush! I am a backend engineer with a keen interest in AI right now I a pursuing my BAchelors of Technology from CGC, landran.
             I do one internship with an NGO in content writing
             """
-    st.info(content)#we can also use write
+    st.info(content)
+    #we can also use write
+
+content2 = """
+           Below you can find some of the apps that I have built by using python. Feel free to contact me.
+           """
+st.write(content2)
